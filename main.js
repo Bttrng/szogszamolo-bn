@@ -11,6 +11,9 @@ let myGuess2;
 let myGuess3; 
 let myGuess4;
 let myGuess6;
+localStorage.setItem("points", myPoints);
+
+localStorage.setItem("max", maxPoints);
 var guesses = ["guess1", "guess2", "guess3", "guess4", "guess5", "guess6"];
 var random = guesses[Math.floor(Math.random() * guesses.length)];
   if (random == "guess1") {
